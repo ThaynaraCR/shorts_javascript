@@ -1,9 +1,9 @@
 # shorts_javascript
-##Objetivos
+### Objetivos
 Esse repositório tem como objetivo, abordar as principais funcionalidades do javascript 
 atraves de exemplos simples
-##Funcionalidades abordadas
-### Eventos
-### Promises
-### Callbacks
-### Async await
+### Funcionalidades abordadas
+* Eventos
+* Promises
+* Callbacks
+* Async await
