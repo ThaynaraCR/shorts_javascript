@@ -71,3 +71,19 @@ Promise.all([f1, f2, f3]).then((values) => {
     console.log(values); //resposta de um array de promisses
 });
 //Promise.allé rejeitada se qualquer uma das promises do array for rejeitada
+
+
+
+// //outro exemplo de promise all para requisições Get
+
+// const endpoints = [
+//     "https://api.com/api/user/1",
+//     "https://api.com/api/user/2",
+//     "https://api.com/api/user/3",
+//     "https://api.com/api/user/4"
+//    ]
+   
+//    const promises = endpoints.map(url => fetch(url).then(res => res.json()))
+   
+//    Promise.all(promises)
+//     .then(body => console.log(body.name))
