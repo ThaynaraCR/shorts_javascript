@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--
+    indexOf tambem serve pra arrrays
+    
+    Se não tiver ocorrencia o indexOf retona menos 1 (-1)m  pode-se usar search() e lastIndexOf() 
+slice(7,13)//corta a string do item 7 ao 13
+replace = renomeia 
+
+var str = "       Hello World!        ";
+alert(str.trim()); //tira os espaços
+
+
+var text1 = "Hello World!";       // String
+var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+
+
+
+str = "Please visit Microsoft!";
+var n = str.replace(/MICROSOFT/i, "W3Schools");
+
+
+let str = "5";
+str = str.padStart(4,0);
+// result is 0005
+
+
+let str = "5";
+str = str.padEnd(4,0);
+// result is 5000
+
+
+var str = "HELLO WORLD";
+str.charAt(0);            // returns H
+
+
+
+
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe
+
+
+
+var txt = "Hello";       // String
+txt.split("");           // Split in characters
+
+
+-->
+<h2>JavaScript String Methods</h2>
+
+<p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "  Please locate where occurs!";
+var pos = str.indexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
+</body>
+</html>
