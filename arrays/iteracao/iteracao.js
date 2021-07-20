@@ -1,90 +1,102 @@
 
-    
-var txt = "";
-var numbers = [45, 4, 9, 16, 25];
-numbers.forEach(myFunction);
-document.getElementById("demo").innerHTML = txt;
+  
 
-function myFunction(value, index, array) {
-  txt = txt + value + "<br>"; 
-}
+  /** *********USANDO FOREACH**************** */
 
+// var txtMostrar = "";
+// var numbers = [45, 4, 9, 16, 25];
+// numbers.forEach(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
 
-
-
-var numbers1 = [45, 4, 9, 16, 25];
-var numbers2 = numbers1.map(myFunction);
-
-function myFunction(value, index, array) {
-  return value * 2;
-}
+// function myFunction(value, index, array) {
+//   txtMostrar = txtMostrar + value + "<br>"; 
+// }
 
 
+  /** *********USANDO MAP**************** */
+// var txtMostrar = "";
+// var numbers1 = [45, 4, 9, 16, 25];
+// var numbers2 = numbers1.map(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
+// function myFunction(value, index, array) {
+//   txtMostrar = txtMostrar + value * 2 + "<br>";
+ // return value * 2;
+//}
 
 
+/** *********USANDO FILTER**************** */
 
+// Percorre cada item do array e retorna verdadeiro ou falso de acordo com a condição 
 
-var numbers3 = [45, 4, 9, 36, 25];
-var numbers4 = numbers3.map(myFunction);
+// var txtMostrar = "";
+// var numbers5 = [45, 4, 9, 16, 25];
+// var over18 = numbers5.filter(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
 
-function myFunction(value, index, array) {
-  return value * 2;
-}
-
-
-
-
-
-var numbers5 = [45, 4, 9, 16, 25];
-var over18 = numbers5.filter(myFunction);
-
-function myFunction(value, index, array) {
-  return value > 18;
-}
+// function myFunction(value, index, array) {
+//   txtMostrar = txtMostrar + (value > 18) + "<br>";
+//  // return value > 18;
+// }
 
 
 
+/** *********USANDO REDUCE**************** */
 
-var numbers6 = [45, 4, 9, 16, 25];
-var sum = numbers6.reduce(myFunction);
+// var txtMostrar = "";
+// var numbers6 = [45, 4, 9, 16, 25];
+// var sum = numbers6.reduce(myFunction); //começa pelo index 1 e não 0
+// document.getElementById("demo").innerHTML = txtMostrar;
 
-function myFunction(total, value, index, array) {
-  return total + value;
-}
-
-
-
-var numbers7 = [45, 4, 9, 16, 25];
-var allOver18 = numbers7.every(myFunction);
-
-function myFunction(value, index, array) {
-  return value > 18;
-}
+// function myFunction(total, value, index, array) {
+//   txtMostrar = txtMostrar + value  + "<br>";
+//   // return total + value;
+// }
 
 
+/** *********USANDO EVERY**************** */
+// var txtMostrar = "";
+// var numbers7 = [100,  33, 16, 40];
+// var allOver18 = numbers7.every(myFunction); 
+// document.getElementById("demo").innerHTML = txtMostrar;
 
-var numbers8 = [45, 4, 9, 16, 25];
-var someOver18 = numbers8.some(myFunction);
-
-function myFunction(value, index, array) {
-  return value > 18;
-}
-
-
-
-var numbers9 = [4, 9, 16, 25, 29];
-var first = numbers9.find(myFunction);
-
-function myFunction(value, index, array) {
-  return value > 18;
-}
+// function myFunction(value, index, array) {
+//   txtMostrar= value > 18;
+//   //return value > 18;
+// }
 
 
+/** *********USANDO SOME**************** */
+// var txtMostrar = "";
+// var numbers8 = [45, 4, 9, 16, 25];
+// var someOver18 = numbers8.some(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
 
-var numbers10 = [4, 9, 16, 25, 29];
-var first = numbers10.findIndex(myFunction);
+// function myFunction(value, index, array) {
+//   txtMostrar= value > 18;
+//   return value > 18;
+// }
 
-function myFunction(value, index, array) {
-  return value > 18; //retorna o primeiro index
-}
+
+/** *********USANDO FIND**************** */
+// var txtMostrar = "";
+// var numbers9 = [4, 9, 16, 25, 29];
+// var first = numbers9.find(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
+
+// function myFunction(value, index, array) {
+//   txtMostrar= value > 18;
+//   return value > 18;
+// }
+
+
+/** *********USANDO FINDINDEX**************** */
+// var txtMostrar = "";
+// var numbers10 = [4, 9, 16, 25, 29];
+// var first = numbers10.findIndex(myFunction);
+// document.getElementById("demo").innerHTML = txtMostrar;
+
+// function myFunction(value, index, array) {
+//     txtMostrar= value > 18;
+//   return value > 18; //retorna o primeiro index
+// }
 
