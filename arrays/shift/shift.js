@@ -1,3 +1,4 @@
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.shift();            // Removes the first element "Banana" from fruits
+var fruits = ["patins", "bicicleta", "bola", "caderno"];
+fruits.shift();            
+// Remove o primeiro elemento da lista
 console.log(fruits)
